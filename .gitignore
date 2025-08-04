@@ -1,7 +1,49 @@
+# Node.js dependencies
 node_modules/
-dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
 .env
-.nyc_output/
+.env.*.local
+
+# Output directories
+dist/
+build/
 coverage/
+.nyc_output/
+
+# Parcel, Vite, Next.js, or similar build tools
+.cache/
+.next/
+out/
+
+# Editor settings
 .vscode/
+.idea/
+
+# OS-specific
 .DS_Store
+Thumbs.db
+
+# Test & coverage
+jest.config.js
+coverage-final.json
+test-results.xml
+
+# Lint cache
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional lock files (if not committing)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
